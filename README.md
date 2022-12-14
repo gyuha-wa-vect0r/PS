@@ -1,2 +1,3 @@
 # Baekjoon
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+<p>백준 풀이 자동 업로드.</p>
+<p>초심자의 자세를 찾아서...</p>

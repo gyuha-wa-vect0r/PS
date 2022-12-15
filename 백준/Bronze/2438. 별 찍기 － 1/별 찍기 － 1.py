@@ -1,3 +1,5 @@
+# C스러운 풀이
+
 case = input()
 x = int(case)
 

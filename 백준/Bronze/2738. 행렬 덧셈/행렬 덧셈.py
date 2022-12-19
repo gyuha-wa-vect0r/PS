@@ -1,5 +1,5 @@
 a, b = input().split()
-x, y = int(a), int(b)
+x, y = int(a), int(b) #x가 행이고 y가 열이다!!
 mat1, mat2 = [], []
 
 for i in range(x):

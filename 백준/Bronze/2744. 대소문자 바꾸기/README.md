@@ -28,6 +28,6 @@
 ### MY MEMO 
 
  <p>해결 방법이 2가지다</p>
- <p>1. 직접 구현 : 문자열 입력 받고, 각 문자의 ASCII CODE 값을 바꾸는 방식! 대소문자의 ASCII CODE 값 차이는 32 이다. 따라서 대문자에서 소문자로 변환 시 ASCII CODE에 32를 더하고, 소문자에서 대문자로 변환 시 ASCII CODE에 32를 뺀다,</p>
- <p>2. 함수 이용 : 문자열을 입력 받고, print(sentence.swapcase()) 처럼 swapcase()를 이용하면 대소문자가 뒤집힌다.</p>
+ <p>1. 직접 구현 : 문자열 입력 받고, 각 문자의 ASCII CODE 값을 바꾸는 방식! 대소문자의 ASCII CODE 값 차이는 32 이다. 따라서 대문자에서 소문자로 변환 시 ASCII CODE에 32를 더하고, 소문자에서 대문자로 변환 시 ASCII CODE에 32를 뺀다.</p>
+ <p>2. 함수 이용 : 문자열을 입력 받고, swapcase()를 이용하면 대소문자가 뒤집힌다. print(sentence.swapcase()) 와 같이 사용!</p>
 

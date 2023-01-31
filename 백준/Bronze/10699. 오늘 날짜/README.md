@@ -24,7 +24,7 @@
 
 ### MY MEMO
 
- <p> 날짜를 다룰 때에는 
+ <p> 날짜를 다룰 때에는 </p>
  ```python
 import datetime
 ```

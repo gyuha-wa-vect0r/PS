@@ -22,3 +22,10 @@
 
  <p>서울의 오늘 날짜를 "YYYY-MM-DD" 형식으로 출력한다.</p>
 
+### MY MEMO
+
+ <p> 날짜를 다룰 때에는 
+ ```python
+import datetime
+```
+을 이용한다

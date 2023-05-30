@@ -9,4 +9,9 @@
  
  ### 그리고... 이거는 중요하다!!!!!
   일반적인 입력은 input()을 쓰지만, sys.stdin.readline()로도 입력이 가능하다!!
+  사용법은, import로 sys를 불러오고, input() 대신에 sys.stdin.readline()을 넣으면 되겠다.
+  시간 더 빨라진다고함.
+  
   참고 :  https://velog.io/@ecvheo1/%EC%9E%85%EB%A0%A5-%EB%B0%9B%EB%8A%94-%EB%B0%A9%EB%B2%95-sys.stdin.readline
+  
+  

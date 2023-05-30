@@ -23,4 +23,5 @@
  <p>입력으로 주어진 숫자 N개의 합을 출력한다.</p>
 
 ### MY MEMO
- <p>이거 num = input()으로 하든 num = list(input())으로 하든 같은거 아님?</
+ <p>이거 num = input()으로 하든 num = list(input())으로 하든 같은거 아님?</p>
+ <p>그리고 리스트 내부에서는 string이니까 연산하려면 정수형으로 바꿔주기! int(변수)</

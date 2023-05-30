@@ -1,5 +1,5 @@
 vol = int(input())
-num = list(input())
+num = input()
 sum = 0
 
 for i in num:

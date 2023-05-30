@@ -1,0 +1,12 @@
+### MY MEMO
+ sumlist = [0]  -> 연산에 아무 지장 없는 0을 미리 넣어주고, index가 1부터 시작되도록 조정
+ index     0 1 2  3  4  5
+ num[]       5 4  3  2  1
+ sumlist[] 0 5 9 12 14 15
+ -> 계산 index가 0부터라고 생각하면 x, 1부터라 해야됨. 
+    만약 3부터 5까지 더한 값을 출력하려면, 총합에서 1부터 2까지 더한 값을 빼줘야 한다! 
+    각각의 구간씩 더한 배열을 새로 만들어주어(sumlist) 이를 편하게 계산하도록 하자.
+ 
+ ### 그리고... 이거는 중요하다!!!!!
+  일반적인 입력은 input()을 쓰지만, sys.stdin.readline()로도 입력이 가능하다!!
+  참고 :  https://velog.io/@ecvheo1/%EC%9E%85%EB%A0%A5-%EB%B0%9B%EB%8A%94-%EB%B0%A9%EB%B2%95-sys.stdin.readline

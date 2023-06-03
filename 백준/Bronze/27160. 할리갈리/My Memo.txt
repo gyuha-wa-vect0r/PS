@@ -1,0 +1,26 @@
+이거 처음에 딕셔너리로 풀까 싶었는데… 
+
+N = int(input()) 
+cards = {
+	 'STRAWBERRY' : 0,
+	 'BANANA' : 0,
+	 'LIME' : 0,
+	 'PLUM' : 0 
+} 
+
+for i in range(N) : 
+	fruit, count = input().split()
+ 	cards[fruit] += int(count) 
+
+check = 5 in cards.values() # 5개 있는지 확인 
+
+if check : print('YES') 
+else : print('NO')
+
+이렇게 푼 사람이 있었네… 처음에 내가 생각했던데로 였는데… 딕셔너리도 value의 합을 할 수 있구나.!
+합을 구해두고 딕셔너리 내부에 값이 5인게 있는지 없는지만 판단하면 되니까.!
+
+이렇게 하는게 더 좋은 것 같다…
+
+나는 과일의 명칭과 수가 저장될 이차원 배열을 선언하고, 입력받은 값에 따라 if문으로 경우 나눠서 진행했다…
+뭐 이거도 아주 체계적으로 판단하기엔 훨씬 편하겠지만 메모리 랑 시간 좀 많이 잡아먹을듯...

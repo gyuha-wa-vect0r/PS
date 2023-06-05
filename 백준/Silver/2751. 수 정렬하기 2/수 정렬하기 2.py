@@ -1,11 +1,11 @@
 import sys
 
-n = int(input())
+quantity = int(sys.stdin.readline())
 num = []
-for _ in range(n):
-    num.append(int(sys.stdin.readline()))
+
+for i in range(quantity):
+  num.append(int(sys.stdin.readline()))
 
 num.sort()
-
-for i in num:
-    print(i)
+for j in num:
+  print(j)

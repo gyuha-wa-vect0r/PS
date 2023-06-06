@@ -29,6 +29,9 @@ weight 변수가 0보다 작아지면 아래 else문으로 내려가게 되고 -
 3. 해답 검사(Solution Check): 원래의 문제가 해결되었는지 검사하고, 해결되지 않았다면 선택 절차로 돌아가 위의 과정을 반복한다.
    -> while 문 이용한 이유!
 
+(참조 : https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%ED%83%90%EC%9A%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-greedy-algorithm/)
+
+
 이거는 내가 정확하게 나누어 떨어져아 한다는걸 까먹고 쓴 코드... 봉다리에 kg 남기고 넉넉잡아 들고갈 수 있도록 짰었음...
 봉다리에 kg이 남으면 안된다.. 알차게 다 채워야 한다는 것. 
 '정확하게 N킬로그램 배달해야 할 때, 봉지 몇 개를 가져가면 되는지'
@@ -47,5 +50,4 @@ else:
   elif rest_quentity_5kg == 4:
     quentity_3kg += 2
   print(quentity_5kg + quentity_3kg)
-  
   

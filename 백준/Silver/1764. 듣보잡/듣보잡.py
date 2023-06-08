@@ -14,7 +14,7 @@ nonAll_Sort.sort()
 nonAll = [0] + nonAll_Sort
 
 duplication = []
-for k in range(1, len(nonAll)): # k : 1 ~ 7
+for k in range(1, len(nonAll)):
   if nonAll[k-1] == nonAll[k]:
     duplication.append(nonAll[k])
 

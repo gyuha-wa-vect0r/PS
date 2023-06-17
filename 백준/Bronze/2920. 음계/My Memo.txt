@@ -1,0 +1,19 @@
+'1부터 8까지 숫자가 한 번씩 등장한다.'에 따라 미리 1~8 또는 8~1에 대한 Data set을 만들어두고,
+1~8이면 ascending, 8~1이면 descending, 이 두개가 아니면 mixed를 출력한다.
+
+근데 Data set를 어떻게 만드느냐다.
+1. ㄹㅇ 숫자 배열이 들어간 리스트와 비교하기.
+2. 입력받은 숫자 배열을 sorted() 쓴 것이랑 비교하기.]
+
+나는 먼저 1번 방식으로 문제를 풀었고,
+
+a = list(map(int, input().split()))
+ 
+if a == sorted(a):
+    print('ascending')
+elif a == sorted(a, reverse=True):
+    print('descending')
+else:
+    print('mixed')
+   
+처럼 2번 방식으로 하는게 더 깔끔해보인다.

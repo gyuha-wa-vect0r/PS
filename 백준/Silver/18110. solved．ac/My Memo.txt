@@ -14,4 +14,6 @@ def round2(num):
 
 이리 계산해서 몇명 빼야되는지 알아낸 후
 리스트의 슬라이싱으로 앞과 뒤쪽 잘라내고 난이도 계산을 하면 끝이다!
-
+round땜에 꽤나 시간 많이 끌었다만, 새로운 것을 알게되었으니 굳!
+https://puleugo.tistory.com/43
+https://ywtechit.tistory.com/209

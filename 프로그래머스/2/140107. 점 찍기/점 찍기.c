@@ -17,5 +17,19 @@ long long solution(int k, int d) {
     return answer;
 }
 
+// 반복문 두번 써서 고생한거
+long long solution(int k, int d) {
+    long long answer = 0;
+    for(long long i = 0; i <= d/k; i++)
+    {
+        for(long long j = 0; j <= d/k; j++)
+        {
+            if (sqrt(((k*i) * (k*i)) + ((k*j) * (k*j))) <= d) { answer++; }
+        }
+    }
+    return answer;
+}
+// 확실히 직관적이긴해 이해는 쉬움 ㅋㅋㅋㅋ
+
 
 // 와 근데 C ㄹㅇ 오랜만에 잡았더만 다까먹어버렸노
